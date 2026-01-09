@@ -1,10 +1,19 @@
 {
-  "name": "bot-vendas",
+  "name": "discord-shop-bot",
   "version": "1.0.0",
+  "description": "Bot de vendas com carrinho, Pix e cupons para Discord",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "GUSTAVOFF",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.14.1",
-    "mongoose": "^8.0.0",
-    "dotenv": "^16.3.1"
+    "mongodb": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
